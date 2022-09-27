@@ -1,0 +1,94 @@
+body {
+  background-color: #E4EFF1;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: light;
+  color: #587377;
+}
+
+h1 {
+  color: #294A66;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #2F5575;
+  font-size: 23px;
+}
+
+h3 {
+  color:grey;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  opacity: 1.0;
+}
+
+li{
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 40px;
+  color: grey;
+  margin: 0;
+}
+
+li a:hover {
+  color: black !important;
+}
+
+img {
+  border-radius: 5%;
+}
+
+.btn-pink{
+  background-color: #93294e;
+  opacity: 0.6;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 15px 20px;
+}
+
+ul {
+  padding-inline-start: 0  !important;
+}
+
+li > a:visited{
+  text-decoration: none;
+  color:grey;
+}
+
+.container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  margin: 40px 0px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+/* For a screen < 1024px, this CSS will be read */
+@media (max-width: 1024px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    width: 88%;
+  }
+}
